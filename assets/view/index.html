@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/styles/index.css">
+</head>
+<body>
+    <h1> formulario de usuario </h1>
+    <form>  
+        <div class="contenedor">   
+            <p>ingrese su tipo de documento</p>
+            <input type="radio" name="tipo" value="1">T.I
+            <br>
+            <input type="radio" name="tipo" value="1">C.E
+            <br>
+            <input type="radio" name="tipo" value="1">P.E.P
+            <br>
+            <input type="number" placeholder="ingrese su documento" name="documento" minlength="5" maxlength="10" required>
+            <br>
+
+            <input type="text" placeholder="ingrese nombre de usaurio" name="nombre" minlength="1" required>
+            <br>
+            <br>
+            <input type="text" placeholder="ingrese apellido de usaurio" name="apellido" minlength="1" required> 
+            <br>
+            <br>
+            <input type="text" placeholder="ingrese direccion de usaurio" name="usuario" minlength="1" required> 
+            <br>
+            <br>
+            <input type="number" placeholder="ingrese su numero de celular" name="celular" minlength="10" maxlength="10">
+            <br>
+            <br>
+            <input type="text" placeholder="ingrese su correo electronico" name="correo" required>
+            <br>
+            <br>
+            <p>Ingrese su genero:</p>
+            <input type="checkbox" name="genero" value="1">Mujer
+
+            <input type="checkbox" name="genero" value="2">Hombre
+
+            <input type="checkbox" name="genero" value="3">Otro
+            <p>si selecciono otro definalo en el panel de abajo</p>
+            <input type="text" name="otro" >  
+            <br>
+            <br>
+            <input type="text" name="sangre" placeholder="ingrese su tipo de sangre" minlength="2" maxlength="3">
+            <br>
+            <br>
+            <input type="text" name="acudiente" placeholder="ingrese el nombre de su acudiente" >
+            <br>
+            <br>
+            <button type="submit">ingresar</button>
+        </div>   
+    </form> 
+    
+</body>
+</html>
